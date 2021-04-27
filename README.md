@@ -24,3 +24,45 @@ Right click anywhere within a table in the aforementioned sheets and select inse
 When filling in a climate type, keep in mind that the weather occurrences in the middle are more likely than the events the beginning or end of the column.
 
 On the days sheet you can also rename the days as you prefer, or even add additional days by right clicking.
+
+
+## Macros Used
+As this weathergen utilises Macros for quality of life I felt it best to disclose what macro functions are used to assuage any concerns.
+
+**Generate seed**
+```VBA
+Sub Generate_seed()
+'
+' Generate_seed Macro
+'
+
+'
+    Calculate
+    Sheets("General sheet").Range("K17").Copy
+    Sheets("General sheet").Range("M16").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+End Sub
+```
+
+**Initialise**
+```VBA
+Sub Initialise()
+'
+' Initialise Macro
+'
+
+'
+    Sheets("Days").Range("B1").Copy
+    Sheets("General sheet").Range("B3").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Temp").Range("A2").Copy
+    Sheets("General sheet").Range("E3").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Precip").Range("A2").Copy
+    Sheets("General sheet").Range("F3").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Wind").Range("A2").Copy
+    Sheets("General sheet").Range("G3").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+End Sub
+```
