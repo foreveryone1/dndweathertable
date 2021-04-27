@@ -1,11 +1,11 @@
-# DND weather table
+# DND weather generator
 ![video](https://raw.githubusercontent.com/foreveryone1/dndweathertable/main/weathergen.webp)
 
 Get the generator [here](https://github.com/foreveryone1/dndweathertable/raw/main/Weathergen.xlsm).
 
 This table uses a [Lehmer pseudo-random number generator](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) to generate numbers from a randomly generated or manually inputted seed.
 
-## Using the table
+## Using the generator
 
 ![image](https://user-images.githubusercontent.com/27033050/116296647-bfd2d680-a79a-11eb-8e37-1291156d9e78.png)
 
@@ -13,7 +13,7 @@ Select the climate conditions from the drop-down bar as preferred. Input a seed 
 
 The initialise button will choose assign a random day as well as random starting conditions. If you prefer, you can instead manually choose a starting day and starting conditions.
 
-## Extending the table
+## Extending the generator
 
 You can add your own climates with unique weather conditions by modifying the coloured tables in the Temp, Weather, and Wind sheets. 
 
