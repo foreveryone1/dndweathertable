@@ -1,4 +1,4 @@
-# DND weather generator
+# D&D weather generator
 ![video](https://raw.githubusercontent.com/foreveryone1/dndweathertable/main/weathergen.webp)
 
 Get the generator [here](https://github.com/foreveryone1/dndweathertable/raw/main/Weathergen.xlsm).
