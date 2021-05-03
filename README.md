@@ -11,7 +11,7 @@ This table uses a [Lehmer pseudo-random number generator](https://en.wikipedia.o
 
 Select the climate conditions from the drop-down bar as preferred. Input a seed or press New Seed to generate a new seed.
 
-The initialise button will choose assign a random day as well as random starting conditions. If you prefer, you can instead manually choose a starting day and starting conditions.
+The initialise button will choose a random day as well as random starting conditions. If you prefer, you can instead manually choose a starting day and starting conditions.
 
 ## Extending the generator
 
